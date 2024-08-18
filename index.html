@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House Tailwind</title>
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind CSS cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -19,10 +25,33 @@
       </script>
 </head>
 <body>
-    <header>
-        <i class="fa-solid fa-star"></i>
-    </header>
-    <main></main>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="lg:flex pt-10 mb-20">
+            <!-- text section -->
+          <div>
+            <h1 class="text-5xl md:text-7xl">It's good <br> 
+                tea time at The <br>  Tea House</h1>
+                <br>
+            <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <br>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More
+                <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>   
+            </button> 
+          </div> 
+          <!-- Image section -->
+           <div>
+            <div></div>
+            <!-- card -->
+            <div></div>
+            <!-- icon -->
+             <div>
+                <i class="fa-solid fa-star"></i>
+             </div>
+           </div>
+        </header>
+    </main>
+  
+   
     <footer></footer>
 </body>
 </html>
